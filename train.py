@@ -24,3 +24,5 @@ model.fit(X_train, y_train)
 
 joblib.dump(model, "model.pkl")
 print("Iris model trained and saved")
+
+print("CI pipeline triggered")
